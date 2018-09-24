@@ -1,0 +1,44 @@
+/*! Modifications to normalize */
+
+*,
+*::before,
+*::after {
+  border: 0;
+  box-sizing: inherit;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px; /* rem = 10px  */
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+
+/* Page */
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+div {
+  font-size: 10rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.year {
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+.subtle {
+  opacity: 0.33;
+}
