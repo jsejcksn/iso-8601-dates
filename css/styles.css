@@ -48,7 +48,7 @@ div {
 }
 
 .progress {
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 0.5rem;
   height: 1rem;
   margin: 0 auto;
