@@ -34,6 +34,10 @@ div {
   text-align: center;
 }
 
+.day {
+  font-size: 6rem;
+}
+
 .year {
   font-size: 4rem;
   margin-top: 0;
