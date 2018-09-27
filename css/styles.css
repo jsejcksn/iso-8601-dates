@@ -46,3 +46,18 @@ div {
 .subtle {
   opacity: 0.33;
 }
+
+.progress {
+  border: 2px solid #ffffff;
+  border-radius: 0.5rem;
+  height: 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: calc(100vw - (2 * 2rem));
+}
+
+.progress-bar {
+  background-color: #ffffff;
+  height: 100%;
+  margin-top: 0;
+}
