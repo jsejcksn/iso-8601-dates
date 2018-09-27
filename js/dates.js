@@ -34,7 +34,7 @@ const el = {
 };
 
 document.body.innerHTML = (
-  '<div>' + date.day + '</div>' +
+  '<div class="day">' + date.day + '</div>' +
   '<div class="year subtle">' + date.year + '</div>' +
   '<div>' + el.subtle('W') + date.week + el.subtle('-') + date.weekDay + '</div>' +
   '<div>' + date.month + el.subtle('-') + date.date + '</div>' +
