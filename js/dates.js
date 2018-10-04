@@ -1,4 +1,6 @@
 {
+  'use strict';
+  
   const date = {
     now: moment(),
     get day () {
